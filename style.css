@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://res.cloudinary.com/duldfbpwz/image/upload/v1665466502/API%20Simpson/25194_ijp7x2.jpg);
+    background-size: cover;
+}
+
+#cart {
+    width: 40%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 10rem;
+    background-color: #E9DCCA;
+    border-radius: 1rem;
+}
+
+#divInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    width: 40%;
+    height: 82%;
+    /* max-width: 100%;
+    max-height: 100%; */
+    margin-top: 2rem;
+    object-fit: cover;
+    /* background-size: cover; */
+}
+
+#character {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#quote {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#divBtn {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-right: 21rem;
+}
+
+#btnGenerate {
+    width: 12rem;
+    height: 2.4rem;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    background-color: #E9DCCA; 
+    border-radius: 0.8rem;
+    border: 3px solid #E9DCCA;
+    cursor: pointer;
+}
+
+#btnGenerate:hover {
+    background-color: #ddd6cd;
+}
